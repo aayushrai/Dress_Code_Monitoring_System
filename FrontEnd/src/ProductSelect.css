@@ -1,0 +1,64 @@
+.product {
+  display: flex;
+  border-radius: 5px;
+  border-style: groove;
+  margin: 5px;
+}
+.product__img {
+  width: 220px;
+  height: 220px;
+}
+.product__desc {
+  width: 50%;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 50px;
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.product__qty {
+  background-color: #eff3f1;
+  padding-top: 20px;
+  display: flex;
+  font-size: 30px;
+  font-weight: bold;
+}
+.product__qty div {
+  padding: 18px;
+}
+.checkout__btn {
+  margin-top: 5px;
+  margin-left: 92%;
+}
+.user__id {
+  margin-top: -40px;
+  margin-left: 10px;
+}
+.user__id h2 {
+  font-family: Georgia, "Times New Roman", Times, serifs;
+  display: flex;
+}
+.user__id p {
+  text-decoration: black underline;
+}
+
+.post{
+  display: flex;
+  border: 2px solid #eaecee;
+  border-radius:8px;
+  min-height: 200px;
+  overflow: hidden;
+  transition: all .25s ease;
+  cursor: pointer;
+  margin-top: 5px;
+
+}
+
+.post:hover{
+  transform: translate3d(0,-5px,0);
+  box-shadow: 0 2rem 5rem 0 rgba(0, 0,0, .1);
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}

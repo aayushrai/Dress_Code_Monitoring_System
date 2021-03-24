@@ -1,0 +1,11 @@
+.header {
+  height: 80px;
+  align-items: center;
+  background-color: #131921;
+  position: sticky;
+}
+.header__text {
+  padding-left: 50px;
+  color: white;
+  font-size: 60px;
+}

@@ -1,0 +1,52 @@
+.FaceRecog {
+  margin: 5px;
+  display: flex;
+  border: 2px solid #eaeaea;
+  border-radius: 8px;
+  height: 150px;
+  width: 1100px;
+  transition: all 0.25s ease;
+  cursor: pointer;
+}
+
+.FaceRecog__image {
+  overflow: hidden;
+  width: 150px;
+}
+
+.FaceRecog__details {
+  display: flex;
+  padding-left: 10px;
+}
+.FaceRecog__button {
+  align-items: flex-end;
+  padding-left: 50px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  text-decoration: none;
+}
+
+.FaceRecog:hover {
+  transform: translate3d(0, -5px, 0);
+  box-shadow: 0 2rem 5rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.FaceRecog__name {
+  padding: 5px;
+}
+.FaceRecog__address {
+  padding: 5px;
+}
+.FaceRecog__phone {
+  padding: 5px;
+}
+
+.FaceRecog__email {
+  padding: 5px;
+}
+
+.FaceRecog__text{
+    padding-top: 5px;
+    width: 650px;
+}

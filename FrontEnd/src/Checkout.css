@@ -1,0 +1,81 @@
+.person__data {
+  display: flex;
+}
+.person__image {
+  border: 1px solid #919292;
+  border-radius:5px;
+  margin: auto;
+  margin-left: 77px;
+  margin-right: 20px;
+  overflow: hidden;
+}
+.person__image img {
+  height: 290px;
+}
+.label {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.lineone {
+  display: flex;
+}
+.linetwo {
+  display: flex;
+}
+
+.linefour {
+  display: flex;
+}
+.person__data {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+.person__info {
+  margin-left: 50px;
+  margin-right: auto;
+}
+.lineone div {
+  margin: 5px;
+  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.linetwo div {
+  margin: 5px;
+  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.linethree {
+  margin: 5px;
+  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.linefour div {
+  margin: 5px;
+  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.linetwo div input {
+  height: 20px;
+}
+
+.order__id {
+  margin-left: 22px;
+}
+input{
+  border: 2px solid #eaecee;
+  border-radius:16px;
+  padding:5px;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}

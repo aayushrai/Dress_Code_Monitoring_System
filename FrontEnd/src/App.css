@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  
+}
+
+
+.App {
+}
+
+.App__container {
+  padding-left: 50px;
+}
+.front {
+  margin-top: 20px;
+  display: flex;
+}
+.App__camera{
+ margin-left: 20px;
+ border: 5px solid #eaecee;
+ border-radius:20px;
+
+}
