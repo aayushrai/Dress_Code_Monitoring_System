@@ -8,10 +8,10 @@ from keras.preprocessing.image import img_to_array
 h = 300
 w = 150
 
-model = load_model("/home/uchiha/Desktop/Dress_code/Dress_code_classifier_model/models/version2.h5")
+model = load_model("/home/uchiha/Desktop/Dress_code/Dress_code_classifier_model/models/version8.h5")
 
 #formal --> 0 ,informal -->1
-img = cv2.resize(cv2.imread("/home/uchiha/Desktop/Dress_code/Dress_code_classifier_model/Screenshot from 2021-03-03 13-59-58.png"),(w,h))
+img = cv2.resize(cv2.imread("/home/uchiha/Desktop/Dress_code/Dress_code_classifier_model/croped/train/formal/0d05eac46bbd1d9cf6beb8fcac5dedeb.jpg-0.jpg"),(w,h))
 img = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
 cv2.imshow("Ww",img)
 cv2.waitKey(0)
